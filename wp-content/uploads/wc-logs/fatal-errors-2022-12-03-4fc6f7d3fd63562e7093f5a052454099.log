@@ -1,0 +1,40 @@
+2022-12-03T12:25:54+00:00 CRITICAL Uncaught TypeError: Elementor\TemplateLibrary\Source_Local::on_save_post(): Argument #2 ($post) must be of type WP_Post, null given, called in C:\xampp\htdocs\project-4\wp-includes\class-wp-hook.php on line 310 and defined in C:\xampp\htdocs\project-4\wp-content\plugins\elementor\includes\template-library\sources\local.php:1080
+Stack trace:
+#0 C:\xampp\htdocs\project-4\wp-includes\class-wp-hook.php(310): Elementor\TemplateLibrary\Source_Local->on_save_post(5478, NULL)
+#1 C:\xampp\htdocs\project-4\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\project-4\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\project-4\wp-includes\post.php(4717): do_action('save_post', 5478, NULL, true)
+#4 C:\xampp\htdocs\project-4\wp-includes\post.php(4819): wp_insert_post(Array, false, true)
+#5 C:\xampp\htdocs\project-4\wp-content\plugins\elementor\includes\db.php(235): wp_update_post(Array)
+#6 C:\xampp\htdocs\project-4\wp-content\plugins\elementor\core\base\document.php(1222): Elementor\DB->save_plain_text(5478)
+#7 C:\xampp\htdocs\project-4\wp-content\plugins\elementor\core\base\document.php(742): Elementor\Core\Base\Document->save_elements(Array)
+#8 C:\xampp\htdocs\project-4\wp-content\plugins\elementor\core\documents-manager.php(527): Elementor\Core\Base\Document->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\project-4\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\xampp\htdocs\project-4\wp-includes\class-wp-hook.php(308): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\xampp\htdocs\project-4\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\project-4\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\project-4\wp-admin\admin-ajax.php(188): do_action('wp_ajax_element...')
+#15 {main}
+  thrown in C:\xampp\htdocs\project-4\wp-content\plugins\elementor\includes\template-library\sources\local.php on line 1080
+
+2022-12-03T14:34:55+00:00 CRITICAL Uncaught TypeError: Elementor\TemplateLibrary\Source_Local::on_save_post(): Argument #2 ($post) must be of type WP_Post, null given, called in C:\xampp\htdocs\project-4\wp-includes\class-wp-hook.php on line 310 and defined in C:\xampp\htdocs\project-4\wp-content\plugins\elementor\includes\template-library\sources\local.php:1080
+Stack trace:
+#0 C:\xampp\htdocs\project-4\wp-includes\class-wp-hook.php(310): Elementor\TemplateLibrary\Source_Local->on_save_post(5503, NULL)
+#1 C:\xampp\htdocs\project-4\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\project-4\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\project-4\wp-includes\post.php(4717): do_action('save_post', 5503, NULL, true)
+#4 C:\xampp\htdocs\project-4\wp-includes\post.php(4819): wp_insert_post(Array, false, true)
+#5 C:\xampp\htdocs\project-4\wp-content\plugins\elementor\includes\db.php(235): wp_update_post(Array)
+#6 C:\xampp\htdocs\project-4\wp-content\plugins\elementor\core\base\document.php(1222): Elementor\DB->save_plain_text(5503)
+#7 C:\xampp\htdocs\project-4\wp-content\plugins\elementor\core\base\document.php(742): Elementor\Core\Base\Document->save_elements(Array)
+#8 C:\xampp\htdocs\project-4\wp-content\plugins\elementor\core\documents-manager.php(527): Elementor\Core\Base\Document->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\project-4\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\xampp\htdocs\project-4\wp-includes\class-wp-hook.php(308): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\xampp\htdocs\project-4\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\project-4\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\project-4\wp-admin\admin-ajax.php(188): do_action('wp_ajax_element...')
+#15 {main}
+  thrown in C:\xampp\htdocs\project-4\wp-content\plugins\elementor\includes\template-library\sources\local.php on line 1080
+
